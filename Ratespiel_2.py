@@ -5,7 +5,7 @@ runden = int(input())
 
 print("Bitte geben Sie eine Zahl zwischen 1 und 10 ein:")
 a = int(input())
-if a < 10:
+if a <= 10:
     a = a
 else:
     print("Ungültige Eingabe! Du sollst eine Zahl zwischen 1 und 10 eingeben du Strolch. Probiere es nochmal")
@@ -27,7 +27,7 @@ while spiel < runden:
         spiel = spiel + 1
         print("Bitte geben Sie eine Zahl zwischen 1 und 10 ein:")
         a = int(input())
-        if a < 10:
+        if a <= 10:
             a = a
         else:
             print("Ungültige Eingabe! Du sollst eine Zahl zwischen 1 und 10 eingeben du Strolch. Probiere es nochmal")
@@ -43,7 +43,7 @@ while spiel < runden:
         spiel += 1
         print("Bitte geben Sie eine Zahl zwischen 1 und 10 ein:")
         a = int(input())
-        if a < 10:
+        if a <= 10:
             a = a
         else:
             print("Ungültige Eingabe! Du sollst eine Zahl zwischen 1 und 10 eingeben du Strolch. Probiere es nochmal")
